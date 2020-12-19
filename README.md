@@ -19,3 +19,18 @@ Then, just run the program and wait:
 ```bash
 $ python3 verifyemails.py
 ```
+
+## Example `input.txt`
+
+```
+example@mail.example.com
+randomemail123@gmail.com
+
+```
+
+## Example `output.csv`
+
+```csv
+example@mail.example.com,exists
+randomemail123@gmail.com,doesn't exist
+```
